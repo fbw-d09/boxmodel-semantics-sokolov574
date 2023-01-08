@@ -1,0 +1,182 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* NAVIGATION */
+.nav-1
+{
+    position: sticky;
+    top: 10px;
+    list-style-type: none;
+    /* border: 2px solid red;  */  
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.nav-1  li { 
+   /*  background-color: yellow; */
+    display: inline;
+}
+
+.nav-1 a {
+    font-size: 35px;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 0 5px;
+}
+
+a {
+    color: black;
+    font-weight: 400px;
+}
+
+/* NAVIGATION END*/
+
+/* HOME */
+header {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+}
+h3 {
+    text-decoration: underline;
+}
+
+.img-header img {
+    display: block;
+    margin: auto;
+    max-width: 75rem;
+    padding: 0 25px 0 25px;
+    width: 200vh;
+    text-align: center;
+
+}
+
+.generation {
+   
+    /* border: 3px solid red; */
+    border-radius: 5px;
+    font-size: 20px;
+    width: 900px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.generation_2 {
+    border-radius: 5px;
+    /* border: 3px solid red; */
+    font-size: 20px;
+    width: 900px;
+    padding: 10px;
+    display: inline-block;
+    
+    
+}
+
+
+.link1  {
+    
+    font-size: 20px;
+    text-align: left;
+    /* border: 1px solid red; */
+    color: red;
+
+}
+.link2 {
+    /* border: 1px solid red; */
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: left;
+    color: red;
+}
+
+
+
+/* HOME END*/
+
+
+
+/* MODELS */
+.info_model {
+    
+    display: block;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.description {
+    display: inline-block;
+   /*  border: 2px solid blue; */
+    text-align: justify;
+    padding: 20px 20px;
+    color: blue;
+    background-color: lightblue;
+   
+}
+
+.description-text {
+    font-size: 25px;
+    float: left;
+    /* border: 2px solid pink; */
+    padding: 20px 80px;
+    margin-bottom: -15px;
+    background-color: lightgray;
+    
+    
+}
+
+.img-description {
+    
+    list-style-type: none;
+    width: 750px;
+    height: 500px;
+    
+   float: right;
+    display: block;
+    
+}
+
+/* MODELS END*/
+
+
+
+/* FUTURE */
+.background {
+    background-color: lightgray;
+}
+
+.future-photo{
+    /* border: 5px solid red; */
+    margin-left: 70px;
+    margin-right: auto;
+    max-width: 75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.photo {
+    display: block;
+    width: 950px;
+    margin: auto;
+}
+
+.about {
+    font-weight: bold;
+    /* border: 5px solid red; */
+    margin-top: 30px;
+}
+
+.text-description {
+    max-width: 45rem;
+    margin-left: 200px;
+    line-height: 27px;
+    text-align: justify;
+    font-weight: 800;
+}
+
+
+/* FUTURE END */
